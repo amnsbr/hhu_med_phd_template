@@ -1,0 +1,27 @@
+\documentclass[crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+\usepackage{blindtext}
+\usepackage[table]{xcolor}
+
+
+\begin{document}
+\section{Section Title}
+\lipsum[7-8] (\autoref{fig:fig2}). 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=120mm]{example-image-b.png}
+ \caption{\textbf{Caption title.} Description.}
+ \label{fig:fig2}
+\end{figure}
+
+\lipsum[9]
+
+\section{Section Title}
+...
+
+\subsection{Subsection Title}
+...
+
+\end{document}

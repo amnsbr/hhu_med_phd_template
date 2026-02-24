@@ -1,0 +1,35 @@
+\documentclass[crop=false]{standalone}
+\usepackage[subpreambles=false]{standalone}
+\usepackage{import}
+\usepackage{blindtext}
+
+
+\begin{document}
+\lipsum[1] 
+
+\section{Section Title}
+\lipsum[2-3]
+
+\subsection{Subsection Title}
+\lipsum[4] (\autoref{fig:fig1}).
+
+\begin{figure}[hbt!]
+ \centering
+ \includegraphics[width=155mm]{example-image-a.png}
+ \caption{\textbf{Caption title.} Description.}
+ \label{fig:fig1}
+\end{figure}
+
+\section{Ethics Protocols}
+The ethical approval for using publicly available datasets included in this research was granted by ... .
+
+\section{Aims of Thesis}
+\lipsum[6]
+
+\begin{itemize}
+    \item In Study 1, ...
+    \item In Study 2, ...
+    \item In Study 3, ...
+\end{itemize}
+
+\end{document}

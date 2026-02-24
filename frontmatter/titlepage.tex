@@ -1,0 +1,49 @@
+\documentclass[crop=false]{standalone}
+\usepackage[subpreambles=false]{standalone}
+\usepackage{import}
+\usepackage{blindtext}
+
+\begin{document}
+
+\title{Thesis Title}
+\author{Your Name}
+
+\makeatletter
+\begin{titlepage}
+\begin{center}
+
+\vspace*{2\baselineskip}
+From the Institute of Systems Neuroscience\\
+at Heinrich Heine University Düsseldorf
+
+\vspace*{4\baselineskip}
+
+\vfill
+
+{\Large \bfseries \@title \par}
+\vfill
+
+\vspace*{2\baselineskip}
+
+Dissertation\\
+\vspace*{3\baselineskip}
+to obtain the academic title of Doctor rerum medicarum (Dr. rer. med.)\\ % change the title if necessary
+\vspace*{0.5\baselineskip}
+from the Faculty of Medicine at Heinrich Heine University Düsseldorf\\
+
+
+\vspace*{6\baselineskip}
+submitted by\\
+
+\vspace*{\baselineskip}
+{\large \textbf{\@author}}
+\vspace*{0.5\baselineskip}
+\\{\large (20xx)} % year
+\vspace*{3\baselineskip}
+
+
+\end{center}
+\end{titlepage}
+\makeatother
+
+\end{document}
