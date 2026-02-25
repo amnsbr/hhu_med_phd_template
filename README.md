@@ -1,4 +1,4 @@
-This repository is a LaTeX thesis template for cumulative PhD theses in the style used by the Faculty of Medicine at Heinrich Heine University Düsseldorf.
+This repository is a LaTeX thesis template for cumulative PhD theses in the style used by the Faculty of Medicine at Heinrich Heine University Düsseldorf. You can see how it looks in the [compiled PDF](template.pdf).
 
 The top-level file is `main.tex`. Most of the writing happens in the chapter `.tex` files inside the subfolders. The template is currently filled with placeholder text using `\lipsum`. Replace `\lipsum` commands with your own text.
 
