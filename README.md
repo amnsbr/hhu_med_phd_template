@@ -21,7 +21,7 @@ Loosely adapted from: https://www.overleaf.com/latex/templates/phd-thesis-templa
    - `study2/study2.tex`
    - `study3/study3.tex`
    - It is also possible to add more studies by adding more subfolders and updating `main.tex`.
-6. Add publication PDFs. Note that for both submission and printing, the publication PDFs are not included in the thesis PDF. To include them, uncomment the `\usepackage{pdfpages}` line in `main.tex`. Otherwise, `\usepackage[demo]{pdfpages}` is used to render empty placeholders instead of full PDFs.
+6. Add publication PDFs. Note that for both submission and printing, the publication PDFs are not included in the thesis PDF. To include them, uncomment the `\usepackage{pdfpages}` line in `main.tex` and comment out the `\usepackage[demo]{pdfpages}` line. Otherwise, `\usepackage[demo]{pdfpages}` is used to render empty placeholders instead of full PDFs.
    - `study1/study1.pdf`
    - `study2/study2.pdf`
    - `study3/study3.pdf`
